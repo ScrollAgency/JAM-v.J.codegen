@@ -13,3 +13,31 @@ import { PlasmicCanvasHost, registerComponent } from '@plasmicapp/react-web/lib/
 export default function PlasmicHost() {
   return <PlasmicCanvasHost />;
 }
+
+import { registerComponent } from "@plasmicapp/react-web/lib/host";
+
+/** Code plasmic au dessus */
+
+// Register le composant Button
+registerComponent(Button, {
+  // Nom du composant côté Builder (CMS)
+  name: "Button",
+  // Propriétés du composant Button
+  props: {
+    onClick: {
+      type: "eventHandler",
+      argTypes: [],
+    },
+    text: {
+      type: "string",
+      defaultValue: "Text",
+      required: true,
+    },
+    desctructive: {
+      type: "boolean",
+      defaultValue: false,
+      required: false,
+    },
+  },
+  importPath: "@/components/button",
+});
