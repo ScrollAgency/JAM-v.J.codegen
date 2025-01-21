@@ -5,6 +5,7 @@
   height: 100%;
   align-content: flex-start;
   justify-items: center;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
   grid-template-columns:
@@ -51,10 +52,17 @@
     grid-column: 4;
   }
 }
-.h1 {
+.button:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.svg__fgc3D {
   position: relative;
-  width: 100%;
-  height: auto;
-  margin-bottom: 32px;
-  min-width: 0;
+  height: 1em;
+}
+.text__gSw8O {
+  white-space: pre;
+}
+.svg___7Mp9P {
+  position: relative;
+  height: 1em;
 }

@@ -55,75 +55,6 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/new-page-test"
-        },
-        {
-          "id": "xTGqPIUVBQRv",
-          "name": "Button",
-          "type": "managed",
-          "projectId": "pqc6pXPEZBFKQWhy6EejtZ",
-          "renderModuleFilePath": "plasmic/jam_v_j_codegen/PlasmicButton.tsx",
-          "importSpec": {
-            "modulePath": "Button.tsx"
-          },
-          "cssFilePath": "plasmic/jam_v_j_codegen/PlasmicButton.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "QGLFISqZbAKz",
-          "name": "Select",
-          "type": "managed",
-          "projectId": "pqc6pXPEZBFKQWhy6EejtZ",
-          "renderModuleFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect.tsx",
-          "importSpec": {
-            "modulePath": "Select.tsx"
-          },
-          "cssFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "select"
-        },
-        {
-          "id": "qhk9MIioa7Sn",
-          "name": "Select__Option",
-          "type": "managed",
-          "projectId": "pqc6pXPEZBFKQWhy6EejtZ",
-          "renderModuleFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect__Option.tsx",
-          "importSpec": {
-            "modulePath": "Select__Option.tsx"
-          },
-          "cssFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect__Option.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "select-option"
-        },
-        {
-          "id": "TfmwKZ42JmZQ",
-          "name": "Select__OptionGroup",
-          "type": "managed",
-          "projectId": "pqc6pXPEZBFKQWhy6EejtZ",
-          "renderModuleFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect__OptionGroup.tsx",
-          "importSpec": {
-            "modulePath": "Select__OptionGroup.tsx"
-          },
-          "cssFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect__OptionGroup.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "select-option-group"
-        },
-        {
-          "id": "geuI_TGC-kPu",
-          "name": "Select__Overlay",
-          "type": "managed",
-          "projectId": "pqc6pXPEZBFKQWhy6EejtZ",
-          "renderModuleFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect__Overlay.tsx",
-          "importSpec": {
-            "modulePath": "Select__Overlay.tsx"
-          },
-          "cssFilePath": "plasmic/jam_v_j_codegen/PlasmicSelect__Overlay.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "triggered-overlay"
         }
       ],
       "icons": [
@@ -164,18 +95,6 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
-        },
-        {
-          "id": "vZyQml5BwJWA",
-          "name": "Button",
-          "displayName": "Button",
-          "componentImportPath": "@/components/button"
-        },
-        {
-          "id": "Mozn2TCquzUw",
-          "name": "Switch",
-          "displayName": "Switch",
-          "componentImportPath": "@/components/switch"
         }
       ],
       "customFunctions": []
