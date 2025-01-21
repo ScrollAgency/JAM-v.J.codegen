@@ -11,6 +11,9 @@
   "dependencies": {
     "@plasmicapp/cli": "^0.1.334",
     "@plasmicapp/react-web": "^0.2.360",
+    "@plasmicpkgs/antd5": "^0.0.261",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.231",
+    "@plasmicpkgs/plasmic-query": "^0.0.227",
     "@plasmicpkgs/react-aria": "^0.0.96",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
